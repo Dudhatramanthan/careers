@@ -1,0 +1,679 @@
+body{
+    margin: 0 auto;
+    font-family: 'Nunito Sans', sans-serif;
+}
+img{
+    max-width: 100%;
+    height: auto;
+}
+*{
+    box-sizing: border-box;
+}
+.header .container{
+    max-width: 1216px;
+}
+.backgroundimg{
+    background-image: url(../careers/img/xhero_1.jpg.pagespeed.ic.rFUNMe-S5R.webp);
+   
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    min-height: 704px;
+    height: 100vh;
+    position: relative;
+    
+    
+}
+.backgroundimg::after{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: black;
+    opacity: 0.5;
+    width: 100%;
+    height: 100%;
+}
+.logo{
+    padding-top: 23px;
+}
+.logo a{
+    color: #fff;
+    font-size: 18px;
+    text-decoration: none;
+    z-index: 1;
+    position: relative;
+    letter-spacing: 3px;
+    font-family: 'Nunito Sans', sans-serif;
+    text-transform: uppercase;
+}
+.head1{
+    padding: 23px 86px;
+}
+.head1 ul li{
+    display: inline-block;
+    margin-right: 29px;
+    
+}
+
+.head1 ul li a{
+    text-decoration: none;
+    color:rgba(255,255,255,.5);
+    z-index: 1;
+    position: relative;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 13px;
+    
+}
+.head1 ul li:hover a{
+    color: #fff;
+}
+.head1 ul{
+    list-style: none;
+}
+.head1 ul li a.active{
+    color: #fff;
+}
+.a{
+    color: #fff;
+background-color: #1644ba;
+     text-align: center;
+    border-radius: 3px;
+    border: 1px solid #1644ba;
+    margin-left: 168px;
+    margin-right: 8px;
+    margin-top: 23px;
+    padding: 5px 6px;
+    font-size: 13px;
+    position: relative;
+    z-index: 1;
+}
+.a i{
+    padding-right: 2px;
+}
+.a span{
+   
+    font-family: 'Nunito Sans', sans-serif;
+    
+}
+.text{
+    margin-top: 166px;
+    
+    text-align: center;
+}
+.text h1{
+    color: #fff;
+    position: relative;
+    z-index: 1;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 600;
+}
+.text p{
+    color: #fff;
+    position: relative;
+    z-index: 1;
+    
+}
+.b .container{
+    max-width: 922px;
+}
+.c form input{
+    position: relative;
+    z-index: 1;
+    padding: 7px 15px;
+    border-radius: 3px;
+    border: none;
+    margin-top: 20px;
+    
+}
+.c form input::placeholder{
+    font-size: 13px;
+    color: #ced4da;
+}
+.c form input:focus{
+    outline: none;
+}
+.c select{
+    z-index: 1;
+    position: relative;
+    padding: 9px 7px;
+    border: none;
+    border-radius: 3px;
+    margin-left: 19px;
+    padding-right: 81px;
+    font-size: 13px;
+}
+
+.c select:focus{
+    outline: none;
+}
+.c select.d{
+    padding-right: 102px;
+}
+.c button{
+    padding: 7px 40px;
+    border: none;
+    border-radius: 3px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-left: 19px;
+    z-index: 1;
+    background-color: #1644ba;
+    position: relative;
+    color: #fff;
+    font-size: 13px;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 600;
+}
+.c button i{
+    font-size: 13px;
+    padding-right: 5px;
+}
+.cz{
+    background-image: url(../careers/img/xhero_1.jpg.pagespeed.ic.rFUNMe-S5R.webp);
+    background-attachment: fixed;
+    min-height: 704px;
+   
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+   
+
+}
+.cz::before{
+    content: "";
+    top: 0;
+    left: 0;
+    position: absolute;
+    background-color: #1644ba;
+    opacity: 0.9;
+    width: 100%;
+    height: 100%;
+
+}
+
+.p h3{
+    text-align: center;
+    color: #fff;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 600;
+    position: relative;
+    z-index: 1;
+    padding-top: 50px;
+
+}
+.p p{
+    margin: 0 auto;
+    text-align: center;
+    width: 49%;
+    position: relative;
+    z-index: 1;
+    color: #fff;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 500;
+    padding-bottom: 50px;
+    
+}
+
+.countfect {
+    
+      font-family:'Archivo Black';
+    
+      font-size:2.5rem;
+    
+      /* more styles here */
+    
+    }
+    .q{
+        position: relative;
+        z-index: 1;
+        color: #fff;
+        margin: 0 auto;
+        text-align: center;
+        justify-content: center;
+        display: flex;
+        
+    }
+    .q span{
+     margin: 0 auto;
+     margin: 79px;
+    
+    }
+    .w{
+        width: 19%;
+    }
+    .w span{
+        font-size: 50px;
+    }
+    .e p{
+        font-size: 14px;
+        font-weight: 700;
+        font-family: 'Nunito Sans', sans-serif;
+        
+    color: rgba(255,255,255,.7);
+    
+    }
+    .e{
+        margin-left: 20px;
+
+    }
+    .t h3{
+        text-align: center;
+        color: black;
+    font-weight: bold;
+        font-family: 'Nunito Sans', sans-serif;
+        font-size: 25px;
+        padding-top: 100px;
+        
+
+    }
+    .jodlisted{
+        background-color:#fff;
+        
+        position: relative;
+        margin-top: -370px;
+
+    } 
+    .jodlisted .container{
+        max-width: 922PX;
+        margin: 0 auto;
+    }
+    .u p{
+        color: #b5b5b5;
+    }
+    .u p b{
+        color:#3c3c3c;
+    }
+    .u span{
+      color: #ffffff;
+      font-family: 'Nunito Sans', sans-serif;
+      background: #1644ba  ;
+      font-size: 10px;
+      padding: 2px 6px;
+      border-radius: 5px;
+    }
+    .u ul{
+        padding-left: 0px;
+        margin-top: 10px;
+        margin-bottom: 0px;
+    }
+    .u p{
+        margin-top: 0px;
+        font-size: 13px;
+    }
+    .u ul li{
+        list-style: none;
+    }
+    .u ul li a{
+       text-decoration: none;
+        color: #0e2b76;
+        font-family: 'Nunito Sans', sans-serif;
+       
+    
+    }
+    .t{
+        margin-bottom: 65px;
+    }
+    .u ul li a:hover{
+        text-decoration: underline;
+        color: #0e2b76;
+    }
+    .i h5{
+        font-size: 15px;
+        font-weight: 500;
+        font-family: 'Nunito Sans', sans-serif;
+    }
+    .i h6{
+        font-size: 12px;
+        font-family: 'Nunito Sans', sans-serif;
+        color: #b5b5b5;
+
+    }
+    .o{
+        text-align: end;
+        padding-top: 3px;
+    }
+    .o h6{
+        font-size: 13px;
+        color:#000;
+        font-weight: 700;
+        font-family: 'Nunito Sans', sans-serif;
+
+    }
+    .jodlisted .row{
+        border-bottom: 1px solid #dee2e6!important;
+        padding-bottom: 13px;
+       margin-bottom: 19px;
+       
+    
+    }
+  
+    .y {
+        width: 42%;
+    }
+    .md span:hover{
+        background: #1644ba;
+    }
+    .md span:hover a{
+        color: #fff;
+    } 
+  
+    .md span{
+        border: 1px solid #dee2e6;
+        width: 25px;
+        height: 25px;
+        border-radius: 50%;
+        display: inline-block;
+        line-height: 24px;
+        text-align: center;
+        margin-right: 5px;
+    }
+    .md span.active{
+        background: #1644ba;
+        
+    }
+    .md span.active a{
+        color: #fff;
+    }
+    .md span a{
+        text-decoration: none;
+        font-size: 13px;
+        color: #1644ba;
+    }.sm{
+        display: flex;
+    }
+    .ms{
+        margin-right: 10px;
+    }
+    .ms button{
+        border: none;
+        background: none;
+        border: 1px  solid #dee2e6 ;
+        border-radius: 4px;
+        padding: 0px 13px 0px 13px;
+    }
+    .ms button a{
+        text-decoration: none;
+        color: #1644ba;
+        font-size: 13px;
+        font-family: 'Nunito Sans', sans-serif;
+    }
+    .ms button:hover{
+        background: #1644ba;
+        
+    }
+    .ms button:hover a{
+        color: #fff;
+    }
+    .dm button{
+        border: 1px solid #dee2e6;
+        background: none;
+        padding: 0px 10px 0px 10px;
+        border-radius: 4px;
+    }
+
+    .dm button a{
+        text-decoration: none;
+        color: #1644ba;
+        font-size: 13px;
+        font-family: 'Nunito Sans', sans-serif;
+    }
+    .dm button:hover{
+        background: #1644ba;
+
+    }
+    .dm button:hover a{
+        color: #fff;
+    }
+    .logo-1{
+        max-width: 200px;
+    }
+    .logo-2{
+        max-width: 150px;
+    }
+
+    .dm{
+        margin-left: 7px;
+    }
+    .sm{
+        margin-bottom: 100px;
+        margin-top: 35px;
+    }
+.df h3{
+    font-weight: 700;
+    text-align: center;
+    font-family: 'Nunito Sans', sans-serif;
+    margin-top: 35px;
+
+}
+.df p{
+    margin: 0 auto;
+    text-align: center;
+    font-family: 'Nunito Sans', sans-serif;
+    width: 58%;
+    color: #7f848c;
+    margin-bottom: 50px;
+
+}
+.fd .container{
+    max-width: 920px;
+}
+.fd .row{
+    display: flex;
+    align-items: center;
+}
+.fd .row .col-md-3{
+    display: flex;
+    justify-content: center;
+   
+}
+
+.logo-3{
+    max-width: 120px;
+}
+.logo-4{
+    max-width: 100px;
+}
+.lk {
+    width: 20%;
+}
+.lk img{
+    border-radius: 50%;
+}
+.kj{
+    width: 6%;
+    display: inline-block;
+    padding-bottom: 24px;
+    
+}
+.kj img{
+    border-radius: 50%;
+
+
+}
+
+.nj{
+    text-align: center;
+}
+
+.ml p{
+    margin: 0 auto;
+    width:443px;
+    font-style: italic;
+    font-size: 17px;
+    color: #7f848c;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 300;
+ 
+}
+.its{
+    margin-top: 20px;
+    font-weight: bold;
+    font-family: 'Nunito Sans', sans-serif;
+}
+.its h6{
+    font-style: italic;
+}
+.mk .owl-dots .owl-dot span{
+  background-color: rgba(0,0,0,.2); 
+    
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    display: inline-block;
+    margin: 3px;
+}
+.mk .owl-dots .owl-dot.active span{
+    background-color: #1644ba;
+}
+.mk .owl-dots{
+    text-align: center;
+    margin-top: 20px;
+}
+.mk{
+    background-color:#f8f9fa;
+    padding-bottom: 30px;
+}
+.menu122{
+    padding-top: 128px;
+}
+.it{
+    background-image: url(../careers/img/xhero_1.jpg.pagespeed.ic.rFUNMe-S5R.webp);
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+    position: relative;
+    background-attachment: fixed;
+    
+}
+.it::after{
+    content: "";
+    background: #1644ba;
+    opacity: 0.9;
+ position: absolute;
+ top: 0;
+ left: 0;
+ height: 100%;
+ width: 100%;
+
+
+
+}
+.it .container{
+    max-width: 922px;
+    margin: 0 auto;
+}
+.ts h3{
+    position: relative;
+    z-index: 1;
+    color: #fff;
+    font-size: 26px;
+}
+
+.ts p{
+    position: relative;
+    z-index: 1;
+    color: #fff;
+    font-weight: 300;
+    padding-bottom: 25px;
+  
+}
+.bt button{
+    padding: 7px 72px;
+    position: relative;
+    z-index: 1;
+    border-radius: 4px;
+    background-color: #fff568;
+    border: 1px solid #fff568;
+}
+.bt button a{
+    text-decoration: none;
+    color: #000;
+
+
+}
+.bt button:hover{
+    background-color: #fff242;
+    border: 1px solid #fff235 ;
+}
+
+.site-footer .container{
+    max-width: 922px;
+    margin: 0 auto;
+}
+.footermenu1 h3{
+    font-size: 14px;
+    color: #fff;
+    padding-bottom: 7px;
+}
+.footermenu1 ul{
+    list-style: none;
+    padding-left: 0px;
+}
+.site-footer{
+    background-color: #242424;
+    padding-bottom: 100px;
+}
+.footeheader{
+    padding-top: 80px;
+}
+
+.footermenu1 ul li a{
+    font-size: 13px;
+    text-decoration: none;
+    color: rgba(255,255,255,.5);
+    line-height: 29px;
+}
+.footermenu1 ul li a:hover {
+
+color: #fff;
+text-decoration: underline;
+}
+.footermenu1 span{
+    width: 30px;
+    height: 30px;
+    
+    display: inline-block;
+    border-radius: 50%;
+    line-height: 30px;
+    text-align: center;
+    margin-right: 5px;
+    background: #1644ba;
+    margin-top: 3px;
+}
+.footermenu1 span a i{
+    font-size: 14px;
+    color: #fff;
+    transition: all linear 0.5s;
+}
+.footermenu1 span:hover{
+    background-color: #fff;
+}
+.footermenu1 span:hover a i{
+    color: #1644ba;
+    transform: rotate(360deg);
+}
+.footerp p{
+    color: #7f848c;
+    text-align: center;
+    font-size: 12px;
+    padding-top: 53px;
+}
+.footerp p a{
+    color: rgba(255,255,255,.5);
+    text-decoration: none;
+    padding-left: 2px;
+}
+.footerp p a:hover{
+    color:#fff;
+    text-decoration: underline;
+}
+.footerp p i:hover{
+    transform: rotate(360deg);
+    color: #fff;
+}
+.footerp p i{
+    transition: all linear 0.5s;
+}
